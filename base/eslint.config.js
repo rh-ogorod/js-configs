@@ -53,6 +53,8 @@ module.exports = {
     // Use @typescript-eslint/no-redeclare insted
     'no-redeclare': 'off',
 
+    'generator-star-spacing': ['error', 'before'],
+
     'max-len': [
       'error',
       80,
