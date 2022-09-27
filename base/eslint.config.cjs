@@ -57,7 +57,7 @@ module.exports = {
 
     'max-len': [
       'error',
-      80,
+      88,
       {
         ignoreUrls: true,
         ignorePattern: '^(?:import|export)\\s.+\\sfrom\\s.+;$',
@@ -240,6 +240,10 @@ module.exports = {
     {
       files: ['*.js', '*.jsx'],
       rules: { '@typescript-eslint/explicit-function-return-type': 'off' },
+    },
+    {
+      files: ['*.cjs'],
+      rules: { '@typescript-eslint/no-var-requires': 'off' },
     },
   ],
   settings: {
