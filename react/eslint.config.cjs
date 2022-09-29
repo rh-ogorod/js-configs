@@ -9,6 +9,7 @@ module.exports = {
     path.join(packageRoot, 'base/eslint.config.cjs'),
     'plugin:react/jsx-runtime',
   ],
+  plugins: ['react-hooks'],
   rules: {
     // /b/; react
     // /b/{
