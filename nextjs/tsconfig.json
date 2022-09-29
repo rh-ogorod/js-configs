@@ -1,19 +1,9 @@
 {
-  "extends": "../base/tsconfig.json",
+  "extends": "../react/tsconfig.json",
   "compilerOptions": {
-    "target": "esnext",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext.asynciterable",
-      "esnext",
-    ],
-    "noEmit": true,
-    "moduleResolution": "node",
-    // "traceResolution": true,
-    "module": "esnext",
-    "allowJs": true,
-    "jsx": "preserve",
-    "incremental": true,
+    // See https://github.com/microsoft/TypeScript/issues/35822
+    // for disabled declarations
+    "declaration": false,
+    "declarationMap": false,
   },
 }

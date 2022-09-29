@@ -10,7 +10,6 @@
     "noImplicitThis": true,
     "noUnusedLocals": false, // Using eslint for this check
     "noUnusedParameters": false,
-    "noErrorTruncation": true,
     "preserveConstEnums": true,
     "removeComments": true,
     "sourceMap": true,
