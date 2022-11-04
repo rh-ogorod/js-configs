@@ -10,5 +10,8 @@
   "license": "GPL-3.0",
   "eslintConfig": {
     "extends": "./base/eslint.config.cjs"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb": "*"
   }
 }
