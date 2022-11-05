@@ -13,5 +13,6 @@
   },
   "peerDependencies": {
     "eslint-config-airbnb": "*"
-  }
+  },
+  "repository": "https://github.com/rh-ogorod/js-configs.git"
 }
