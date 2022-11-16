@@ -248,10 +248,10 @@ module.exports = {
   ],
   settings: {
     'import/resolver': {
-      node: {
+      [require.resolve('eslint-import-resolver-node')]: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
-      typescript: {
+      [require.resolve('eslint-import-resolver-typescript')]: {
         alwaysTryTypes: true,
       },
     },
