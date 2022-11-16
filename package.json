@@ -9,7 +9,7 @@
   "author": "Victor Rybynok",
   "license": "GPL-3.0",
   "eslintConfig": {
-    "extends": "./base/eslint.config.cjs"
+    "extends": "./base/eslint.config.js"
   },
   "peerDependencies": {
     "eslint-config-airbnb": "*"
