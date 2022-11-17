@@ -1,5 +1,7 @@
 // Hey Emacs, this is -*- coding: utf-8 -*-
 
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const path = require('path');
 
 const packageRoot = path.resolve(path.join(__dirname, '..'));

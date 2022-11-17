@@ -151,8 +151,10 @@ module.exports = {
       'error',
       'ignorePackages',
       {
-        js: 'never',
-        jsx: 'never',
+        js: 'always',
+        cjs: 'always',
+        mjs: 'always',
+        jsx: 'always',
         ts: 'never',
         tsx: 'never',
       },
@@ -238,7 +240,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.js', '*.jsx'],
+      files: ['*.js', '*.cjs', '*.mjs', '*.jsx'],
       rules: { '@typescript-eslint/explicit-function-return-type': 'off' },
     },
     {
@@ -249,7 +251,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       [require.resolve('eslint-import-resolver-node')]: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.cjs', '.js', '.jsx', '.ts', '.tsx'],
       },
       [require.resolve('eslint-import-resolver-typescript')]: {
         alwaysTryTypes: true,

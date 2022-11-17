@@ -3,16 +3,21 @@
   "version": "0.0.2",
   "description": "",
   "scripts": {
-    "lint": "eslint --ext .js,.cjs,.ts . && echo '' && tsc"
+    "manual-lint": "eslint --ext .js,.cjs,.ts . && echo '' && tsc"
   },
   "keywords": [],
   "author": "Victor Rybynok",
   "license": "GPL-3.0",
   "eslintConfig": {
-    "extends": "./base/eslint.config.js"
+    "extends": "./base/eslint.config.cjs"
   },
   "peerDependencies": {
-    "eslint-config-airbnb": "*"
+    "eslint": "^7.23.0 || ^8.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "typescript": ">=3.3.1"
+  },
+  "optionalDependencies": {
+    "eslint-config-next": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
