@@ -17,7 +17,7 @@
     "typescript": ">=3.3.1"
   },
   "optionalDependencies": {
-    "eslint-config-next": "*"
+    "eslint-config-next": "^13.0.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
