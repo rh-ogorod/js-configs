@@ -5,6 +5,7 @@
     "lib": ["dom", "dom.iterable", "esnext.asynciterable", "esnext"],
     "noEmit": true,
     "moduleResolution": "node16",
+    // "moduleResolution": "nodenext",
     // "moduleResolution": "node",
     // "traceResolution": true,
     "module": "esnext",
