@@ -24,6 +24,6 @@
     "resolveJsonModule": true,
     "alwaysStrict": true,
     "isolatedModules": true,
-    "noErrorTruncation": true,
-  },
+    "noErrorTruncation": true
+  }
 }
