@@ -1,8 +1,14 @@
 {
   "extends": "../react/tsconfig.json",
   "compilerOptions": {
+    "target": "esnext",
     // See https://github.com/microsoft/TypeScript/issues/35822
     // for disabled declarations
+    "moduleResolution": "node",
+    // "moduleResolution": "node16",
+    // "traceResolution": true,
+    "module": "esnext",
+    "noEmit": true,
     "declaration": false,
     "declarationMap": false,
   },
