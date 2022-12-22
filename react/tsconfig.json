@@ -3,6 +3,7 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext.asynciterable", "esnext"],
     "allowJs": true,
+    "checkJs": true,
     "jsx": "preserve",
     "incremental": true
   }
