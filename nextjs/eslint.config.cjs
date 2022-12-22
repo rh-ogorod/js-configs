@@ -9,4 +9,7 @@ module.exports = {
     path.join(packageRoot, 'react/eslint.config.cjs'),
     'next/core-web-vitals',
   ],
+  settings: {
+    'import/ignore': ['.(scss|css)$'],
+  },
 };
